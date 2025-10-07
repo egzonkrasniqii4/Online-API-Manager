@@ -24,7 +24,7 @@ ORDER_URL = f"{BASE_URL}/GetOrders/"
 
 
 # Database connection setup 
-DB_CONNECTION = "DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost;DATABASE=OnlineAPI;UID=sa;PWD=sasa"
+DB_CONNECTION = "DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost;DATABASE=OnlineAPI;UID=test;PWD=test"
 LOG_FILE = "log.txt"
 
 # Log error messages to a file
@@ -715,4 +715,5 @@ print("Scheduled functions to run every 30 minutes.")
 # Keep the script running to execute the schedule
 while True:
     #schedule.run_pending()
+
     time.sleep(1)
